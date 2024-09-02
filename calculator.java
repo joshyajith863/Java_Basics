@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class calculator{
  public void operation(int num1,int num2,char operation){
- 	switch(this.operation){
+ 	switch(operation){
  		case '+' : System.out.println("Sum is :"+this.num1+this.num2);
  					break;
 		case '-' :System.out.println("difference is :"+this.num1-this.num2);
