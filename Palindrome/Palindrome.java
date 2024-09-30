@@ -7,6 +7,7 @@ public class Palindrome {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a string ");
         s1 = sc.nextLine();
+        sc.close();
         int len = s1.length();
         for (int i = 0; i < len / 2; i++) { 
             if (s1.charAt(i) != s1.charAt(len - i - 1)) { 
@@ -19,5 +20,6 @@ public class Palindrome {
         } else {
             System.out.println(s1 + " is a palindrome");
         }
+        
     }
 }
