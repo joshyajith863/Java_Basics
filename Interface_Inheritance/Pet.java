@@ -7,8 +7,7 @@
 
 // Interface Pet
 interface Pet {
-    // Interface method for playing
-    String getName();
-    void getName(s);
     void play();
+    void setName(String name);
+    String getName();
 }
