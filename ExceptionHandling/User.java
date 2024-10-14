@@ -8,7 +8,7 @@ public class User{
         userAge = sc.nextInt();
 
        try{
-         AgeVerify age = new AgeVerify(userAge);
+         new AgeVerify(userAge);
        }
        catch(Exception e){
         System.out.println("Exception :"+e);

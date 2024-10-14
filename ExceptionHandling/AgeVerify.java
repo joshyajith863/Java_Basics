@@ -1,5 +1,3 @@
-
-
 public class AgeVerify{
     public AgeVerify(int vote) throws IllegalAccessException{
         
