@@ -112,7 +112,7 @@ public class Customer_Exception{
         for(int i =0; i<n; i++){
             if(accNumber[i]== acno){
                 flag = 1;
-                pos = 1;
+                pos = i;
                 break;
             }
         }
@@ -162,7 +162,7 @@ public class Customer_Exception{
                 catch(InvalidAmountException e ){
                     System.out.println(e);
 
-                }
+            
                 catch(InsufficientFundsException e){
                     System.out.println(e);
                 }
